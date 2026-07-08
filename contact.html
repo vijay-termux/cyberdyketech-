@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | CYBERDYKE TECH - AI Security & Global Web Solutions</title>
+<meta name="description" content="Contact CYBERDYKE TECH in Uppal, Hyderabad for AI-powered cybersecurity, custom web development, and E-commerce solutions.">
+<meta name="keywords" content="cybersecurity, web development, contact cyberdyke tech, hyderabad cybersecurity, AI vulnerability scanner">
+<meta name="author" content="CYBERDYKE TECH">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+body { font-family: 'Inter', sans-serif; color: #333; line-height: 1.6; }
+
+.page-header-section {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1920&q=80') no-repeat center center;
+    background-size: cover;
+    min-height: 45vh;
+}
+
+.contact-section-wrapper { margin-top: -80px; position: relative; z-index: 10; }
+
+.contact-card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.1);
+    padding: 40px;
+    height: 100%;
+    border: 1px solid #f1f3f5;
+}
+
+/* Success Alert */
+#successAlert {
+    display: none;
+    background-color: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-left: 5px solid #16a34a;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 30px;
+    animation: slideInUp 0.5s ease-out both;
+}
+
+/* Error Alert */
+#errorAlert {
+    display: none;
+    background-color: #fff5f5;
+    border: 1px solid #fed7d7;
+    border-left: 5px solid #e53e3e;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 30px;
+    animation: slideInUp 0.5s ease-out both;
+}
+
+@keyframes slideInUp {
+    from { opacity: 0; transform: translateY(-15px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.form-label { font-weight: 600; color: #495057; font-size: 0.9rem; }
+
+.map-container {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #eee;
+    height: 380px;
+    margin-top: 20px;
+}
+
+.whatsapp-btn {
+    position: fixed; right: 30px; bottom: 30px;
+    width: 65px; height: 65px;
+    background-color: #25d366; color: white;
+    border-radius: 50%; display: flex;
+    align-items: center; justify-content: center;
+    font-size: 32px; z-index: 1000;
+    text-decoration: none;
+    box-shadow: 0 10px 25px rgba(37,211,102,0.4);
+    animation: whatsapp-pulse 2s infinite;
+}
+@keyframes whatsapp-pulse {
+    0%   { transform: scale(1);    box-shadow: 0 0 0 0   rgba(37,211,102,0.7); }
+    70%  { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(37,211,102,0);   }
+    100% { transform: scale(1);    box-shadow: 0 0 0 0   rgba(37,211,102,0);   }
+}
+
+.footer { background-color: #212529; color: #adb5bd; padding: 80px 0 40px; }
+.footer mt-5 { color: white; font-weight: 700; }
+.footer-info { color: white; font-weight: 500; }
+.footer-link { color: #adb5bd; text-decoration: none; }
+.footer-link:hover { color: #007bff; }
+
+.honeypot { display: none !important; }
+
+/* Loading spinner in button */
+#submitBtn .spinner { display: none; }
+#submitBtn.loading .spinner { display: inline-block; }
+#submitBtn.loading .btn-text { display: none; }
+</style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100">
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar" style="background:#212529;">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="/image.png" alt="Cyberdyke Tech Logo" class="logo me-2" height="40">
+            <span class="fw-bold text-white">𝐂𝐘𝐁𝐄𝐑𝐃𝐘𝐊𝐄 𝐓𝐄𝐂𝐇</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="webinar.html">Webinars</a></li>
+                <li class="nav-item"><a class="nav-link" href="Web-development.html">Web-development</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+            </ul>
+            <div class="d-flex ms-lg-3">
+                <a href="contact.html" class="btn btn-primary btn-animated rounded-pill px-4">Get a Free Assessment</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="page-header-section text-center text-white d-flex align-items-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold mb-3">Contact Cyberdyke Tech</h1>
+        <p class="lead">Professional Security & Web Engineering in Hyderabad.</p>
+    </div>
+</section>
+
+<section class="contact-section-wrapper pb-5">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-lg-7">
+                <div class="contact-card">
+
+                    <div id="successAlert">
+                        <div class="d-flex align-items-start">
+                            <i class="fas fa-check-circle fa-2x me-3" style="color:#16a34a;"></i>
+                            <div>
+                                <h5 class="fw-bold mb-1 text-dark">Submission Successful</h5>
+                                <p class="mb-0 text-secondary small">
+                                    Thank you for reaching out. Our technical consultants will
+                                    review your inquiry and respond within 24 hours.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="errorAlert">
+                        <div class="d-flex align-items-start">
+                            <i class="fas fa-exclamation-circle fa-2x me-3" style="color:#e53e3e;"></i>
+                            <div>
+                                <h5 class="fw-bold mb-1 text-dark">Submission Failed</h5>
+                                <p class="mb-0 text-secondary small" id="errorMsg">
+                                    Something went wrong. Please try again or email us directly at
+                                    <a href="mailto:info@cyberdyketech.com">info@cyberdyketech.com</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="fw-bold mb-4">Send an Inquiry</h3>
+
+                    <form id="masterContactForm" novalidate>
+
+                        <div class="honeypot" aria-hidden="true">
+                            <input type="text" name="b_trap" tabindex="-1" autocomplete="off">
+                        </div>
+
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label">Full Name *</label>
+                                <input type="text" class="form-control" id="full_name"
+                                       name="full_name" placeholder="John Doe" required>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">Phone Number *</label>
+                                <input type="tel" class="form-control" id="phone"
+                                       name="phone" placeholder="+91 9391856552" required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Business Email *</label>
+                                <input type="email" class="form-control" id="email"
+                                       name="email" placeholder="info@cyberdyketech.com" required>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Service Required *</label>
+                                <select class="form-select" id="service_type" name="service_type" required>
+                                    <option value="" selected disabled>Select Category...</option>
+                                    <optgroup label="Cybersecurity Services">
+                                        <option>AI Vulnerability Scanner</option>
+                                        <option>24/7 Threat Monitoring & SOC</option>
+                                        <option>Full Security Audits</option>
+                                        <option>Cyber Compliance Reporting</option>
+                                    </optgroup>
+                                    <optgroup label="Web Development">
+                                        <option>E-commerce Solutions</option>
+                                        <option>Custom Enterprise Website</option>
+                                        <option>Landing Page Design</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">Project Details *</label>
+                                <textarea class="form-control" id="message" name="message"
+                                          rows="5" placeholder="Tell us about your needs..." required></textarea>
+                            </div>
+
+                            <div class="col-12 mt-4">
+                                <button type="submit" id="submitBtn"
+                                        class="btn btn-primary w-100 py-3 shadow-sm fw-bold">
+                                    <span class="btn-text">
+                                        SEND MESSAGE <i class="fas fa-paper-plane ms-2"></i>
+                                    </span>
+                                    <span class="spinner">
+                                        <i class="fas fa-circle-notch fa-spin me-2"></i> PROCESSING...
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="contact-card">
+                    <h3 class="fw-bold mb-4">Our Headquarters</h3>
+                    <div class="p-4 bg-light rounded-4 mb-4 border-start border-primary border-5">
+                        <h6 class="fw-bold text-primary mb-2">Registered Address:</h6>
+                        <p class="text-dark small mb-0">
+                             L.B Nagar,<br>
+                             Rd Number 1, Chandrapuri Colony,  Hyderabad, Telangana 500074
+                        
+                        </p>
+                    </div>
+                    <div class="mb-4 ps-1">
+                        <p class="mb-1 fw-bold small text-muted">Support Hotline:</p>
+                        <p class="text-dark fw-bold mb-0">+91 9391856552</p>
+                    </div>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.5684784013145!2d78.55836881487635!3d17.388349288075355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99686001099b%3A0xe4122a061937e9e7!2sPadmini%20Residency!5e0!3m2!1sen!2sin!4v1711200000000!5m2!1sen!2sin"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-lg-5">
+                <img src="/image.png" height="45" class="mb-4" style="filter:brightness(0) invert(1);">
+                <p class="pe-lg-5">AI-Powered Cybersecurity and Global Web Development Solutions for Modern Enterprises.</p>
+                <div class="d-flex mt-4">
+                    <a href="#" class="text-white me-4 fs-5"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="text-white me-4 fs-5"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-white fs-5"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h5 class="text-white mb-3">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="about.html" class="footer-link">About Us</a></li>
+                    <li class="mb-2"><a href="services.html" class="footer-link">Our Services</a></li>
+                    <li class="mb-2"><a href="privacy.html" class="footer-link">Privacy Policy</a></li>
+                    <li class="mb-2"><a href="contact.html" class="footer-link">Support</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-white mb-3">Contact</h5>
+                <p class="mb-2"><i class="fas fa-map-marker-alt text-primary me-2"></i><span class="footer-info">L.B Nagar, Hyderabad, India</span></p>
+                <p class="mb-2"><i class="fas fa-phone-alt text-primary me-2"></i><span class="footer-info">+91 9391856552</span></p>
+                <p><i class="fas fa-envelope text-primary me-2"></i><span class="footer-info">info@cyberdyketech.com</span></p>
+            </div>
+        </div>
+        <hr class="mt-5 border-secondary opacity-25">
+        <p class="text-center small mb-0 text-white-50">© 2026 Cyberdyke Tech. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<a href="https://wa.me/919391856552" class="whatsapp-btn shadow" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.getElementById('masterContactForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const btn        = document.getElementById('submitBtn');
+    const successBox = document.getElementById('successAlert');
+    const errorBox   = document.getElementById('errorAlert');
+    const errorMsg   = document.getElementById('errorMsg');
+
+    successBox.style.display = 'none';
+    errorBox.style.display   = 'none';
+
+    btn.classList.add('loading');
+    btn.disabled = true;
+
+    const payload = {
+        full_name: document.getElementById('full_name').value.trim(),
+        phone: document.getElementById('phone').value.trim(),
+        email: document.getElementById('email').value.trim(),
+        service_type: document.getElementById('service_type').value,
+        message: document.getElementById('message').value.trim(),
+        b_trap: document.querySelector('input[name="b_trap"]').value
+    };
+
+    try {
+        const response = await fetch('https://cyberdyketech.com/contact_handler.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload),
+        });
+
+        const result = await response.json();
+
+        console.log(result); // debug
+
+        if (result.status === "success") {
+            successBox.style.display = 'block';
+            this.reset();
+        } else {
+            errorMsg.innerHTML = result.error || 'Something went wrong';
+            errorBox.style.display = 'block';
+        }
+
+    } catch (err) {
+        console.error(err);
+        errorMsg.innerHTML = 'Server not reachable';
+        errorBox.style.display = 'block';
+    }
+
+    btn.classList.remove('loading');
+    btn.disabled = false;
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "studyke/api",
+  "description": "StuDyke# Platform API",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "phpmailer/phpmailer": "^7.0",
+    "league/oauth2-google": "^4.0",
+    "league/oauth2-linkedin": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "StuDyke\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  }
+}

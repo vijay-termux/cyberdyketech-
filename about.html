@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CYBERDYKE TECH - Global AI-Powered Cybersecurity Solutions</title>
+<meta name="description" content="CYBERDYKE TECH provides global AI-powered cybersecurity solutions. With over a decade of experience in enterprise IT and security, our founder leads the innovation in AI-driven protection.">
+<meta name="keywords" content="cybersecurity, AI, global cybersecurity, enterprise IT, threat detection, vulnerability scanner, cloud security, compliance, security audits, Cyberdyke Tech">
+<meta name="author" content="CYBERDYKE TECH">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.cyberdyketech.com/about.html"> <meta property="og:title" content="CYBERDYKE TECH - Global AI-Powered Cybersecurity Solutions">
+<meta property="og:description" content="With over a decade of experience in cybersecurity and enterprise IT, our founder drives AI-powered innovations to protect businesses worldwide.">
+<meta property="og:image" content="/assets/images/og-image.png">
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.cyberdyketech.com/about.html"> <meta property="twitter:title" content="CYBERDYKE TECH - Global AI-Powered Cybersecurity Solutions">
+<meta property="twitter:description" content="AI-powered global cybersecurity for enterprises, startups, and organizations. Led by decades of experience in IT and cyber defense.">
+<meta property="twitter:image" content="/assets/images/twitter-image.png">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/style.css">
+<style>
+/* Custom styles for CYBERDYKE TECH */
+
+/* Add specific styles for the video container */
+.video-container {
+    position: relative;
+    width: 100%;
+    /* 16:9 aspect ratio (height / width = 9 / 16 = 0.5625) */
+    /* For 4:3 aspect ratio, use padding-bottom: 75%; */
+    padding-bottom: 56.25%; /* This creates a 16:9 aspect ratio container */
+    height: 0;
+    overflow: hidden;
+    border-radius: 8px; /* Match other card/section corners */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+.video-container video { /* Target the video element directly */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures video covers the container without distortion */
+}
+
+/* Existing styles you provided */
+body {
+    font-family: 'Inter', sans-serif; /* Using one of your imported fonts */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar adjustments */
+.navbar-brand .logo {
+    margin-right: 0.5rem;
+}
+
+.navbar-brand .fw-bold {
+    letter-spacing: 0.1em; /* Example: slight letter spacing for the brand name */
+}
+
+/* Page Header Section */
+.page-header-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/cybersecurity-network-safeguards.jpg') no-repeat center center; /* Placeholder background */
+    background-size: cover;
+    min-height: 40vh; /* Adjust height as needed */
+}
+
+
+/* Animations (from your main CSS, repeated for self-containment if style.css is not always loaded) */
+.animate-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.animate-fade-in.is-visible { /* Class added by JS when element is in view */
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.delay-1 { transition-delay: 0.1s; }
+.delay-2 { transition-delay: 0.2s; }
+.delay-3 { transition-delay: 0.3s; }
+.delay-4 { transition-delay: 0.4s; }
+.delay-5 { transition-delay: 0.5s; }
+.delay-6 { transition-delay: 0.6s; }
+.delay-7 { transition-delay: 0.7s; }
+
+/* Custom button animation */
+
+.btn-animated {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-animated:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+}
+
+
+
+
+
+/* Trust Badges - Team Member Card */
+.team-member-card {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.team-avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #007bff; /* Primary color border */
+    box-shadow: 0 0 10px rgba(0,123,255,0.3);
+}
+
+.team-member-card .social-links .social-icon-sm {
+    color: #007bff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.team-member-card .social-links .social-icon-sm:hover {
+    color: #0056b3;
+}
+
+
+/* Footer styles - copied from your existing footer */
+.footer {
+    background-color: #212529; /* Dark background similar to navbar */
+    color: #f8f9fa;
+}
+
+.footer-logo {
+    height: 50px;
+    filter: brightness(0) invert(1); /* Makes logo white if it's black */
+}
+
+.footer-logo-link:hover {
+    opacity: 0.8;
+}
+
+.footer a {
+    color: #adb5bd;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.social-links .social-icon {
+    color: #f8f9fa;
+    margin-right: 15px;
+    font-size: 1.2rem;
+    transition: color 0.2s ease;
+}
+
+.social-links .social-icon:hover {
+    color: #007bff;
+}
+
+/* Styles for the main content areas */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.bg-light-gray {
+    background-color: #f8f9fa; /* A light grey background */
+}
+
+/* Specific styles from other pages that might be relevant if custom CSS is not loaded */
+/* Navbar dark background (if not already in style.css or a global element) */
+.navbar-dark.fixed-top {
+    background-color: #212529 !important; /* Dark background */
+}
+
+/* Newsletter styles */
+.newsletter-form .input-group > .form-control-lg {
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+}
+.newsletter-form .input-group > .btn-lg {
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+}
+
+/* Cookie Consent styles (copied from your existing) */
+.cookie-consent-popup, .cookie-preferences-modal {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 450px;
+    z-index: 1050; /* Above most content */
+}
+
+.cookie-preferences-modal {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 550px;
+}
+</style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100">
+    
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar" aria-label="Main navigation">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html" aria-label="Cyberdyke Tech Home">
+            <img src="/image.png" alt="Cyberdyke Tech Logo" class="logo me-2" height="40">
+            <span class="fw-bold text-white"> 𝐂𝐘𝐁𝐄𝐑𝐃𝐘𝐊𝐄 𝐓𝐄𝐂𝐇</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="webinar.html">Webinars</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Web-development.html">Web-development</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="d-flex ms-lg-3">
+                <a href="contact.html" class="btn btn-primary btn-animated rounded-pill px-4" role="button">Get a Free Assessment</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div id="custom-cursor" data-cursor-glow></div>
+<section class="page-header-section text-center text-white d-flex align-items-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold mb-3 animate-fade-in">About Cyberdyke Tech</h1>
+        <p class="lead animate-fade-in delay-1">
+            Your trusted partner in AI-powered cybersecurity.
+        </p>
+    </div>
+</section>
+
+<section id="company-overview" class="py-5 py-lg-6">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0 animate-fade-in">
+                <h2 class="h3 fw-bold mb-3">Securing India's Digital Future</h2>
+                <p class="text-muted lead">
+                    Cyberdyke Tech was founded with a singular vision: to provide robust, intelligent, and proactive cybersecurity solutions tailored for the unique challenges faced by Indian enterprises, startups, and organizations. In an increasingly interconnected world, digital threats are constantly evolving. We believe that effective defense requires equally advanced and adaptive strategies.
+                </p>
+                <p class="text-muted">
+                    Leveraging the power of ethical Artificial Intelligence, we deliver end-to-end digital protection that not only detects and responds to threats but also predicts and prevents them. Our commitment is to build unwavering trust with our clients, fostering innovation, and ensuring 24/7 peace of mind.
+                </p>
+            </div>
+            <div class="col-lg-6 text-center animate-fade-in delay-1">
+                <div class="video-container">
+                    <video controls poster="/assets/images/video-poster.jpg" aria-label="Cyberdyke Tech Company Overview Video">
+                        <source src="/assets/videos/cyberdyke_overview.mp4" type="video/mp4">
+                        <source src="/assets/videos/cyberdyke_overview.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section id="mission-vision-values" class="py-5 py-lg-6 bg-light-gray">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md-4 animate-fade-in">
+                <div class="p-4 rounded-lg h-100 bg-white shadow-sm">
+                    <div class="icon-wrapper mb-3"><i class="fas fa-bullseye fa-2x text-primary"></i></div>
+                    <h3 class="h5 fw-bold mb-2">Our Mission</h3>
+                    <p class="text-muted">To empower Indian businesses with cutting-edge, AI-driven cybersecurity solutions that ensure continuous protection and foster digital resilience.</p>
+                </div>
+            </div>
+            <div class="col-md-4 animate-fade-in delay-1">
+                <div class="p-4 rounded-lg h-100 bg-white shadow-sm">
+                    <div class="icon-wrapper mb-3"><i class="fas fa-eye fa-2x text-primary"></i></div>
+                    <h3 class="h5 fw-bold mb-2">Our Vision</h3>
+                    <p class="text-muted">To be the leading cybersecurity partner in India, recognized for our innovative AI technologies, unwavering commitment to client trust, and proactive defense strategies.</p>
+                </div>
+            </div>
+            <div class="col-md-4 animate-fade-in delay-2">
+                <div class="p-4 rounded-lg h-100 bg-white shadow-sm">
+                    <div class="icon-wrapper mb-3"><i class="fas fa-handshake fa-2x text-primary"></i></div>
+                    <h3 class="h5 fw-bold mb-2">Our Values</h3>
+                    <p class="text-muted">Innovation, Integrity, Client-Centricity, Proactivity, and Continuous Learning are the pillars of our operations.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="our-team" class="py-5 py-lg-6">
+    <div class="container">
+        <h2 class="text-center mb-5 section-title animate-fade-in">Meet Our Leadership</h2>
+        <div class="row justify-content-center g-4">
+            <div class="col-md-6 col-lg-4 animate-fade-in delay-1">
+                <div class="team-member-card text-center p-4 rounded-lg h-100">
+                    <img src="/assets/images/vijay-sagar-cyberdyke-tech-founder-ceo.png" class="img-fluid rounded-circle mb-3 team-avatar" alt="Vijay sagar, Founder & CEO">
+                    <h3 class="h5 fw-bold mb-1">BEERNIDI.VIJAY SAGAR</h3>
+                    <p class="text-primary fw-medium mb-2">Founder & CEO</p>
+                    <p class="text-muted">
+                        Vijay Sagar, founder of Cyberdyke Tech, is a cybersecurity expert, researcher, and ethical hacker driving next-gen AI-powered digital defense.
+                    </p>
+                    <div class="social-links mt-3 d-flex gap-3 justify-content-center">
+                        <a href="https://www.linkedin.com/company/cyberdyketech" class="social-icon-sm text-primary" aria-label="LinkedIn" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin-in fa-sm"></i>
+                        </a>
+                        <a href="https://twitter.com/cyberdyketech" class="social-icon-sm text-primary" aria-label="Twitter" target="_blank" rel="noopener">
+                            <i class="fab fa-twitter fa-sm"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </div>
+</section>
+
+<section id="cta" class="py-5 py-lg-6 bg-primary text-white text-center">
+    <div class="container">
+        <h2 class="display-5 fw-bold mb-3 animate-fade-in">Partner with Us for Unmatched Security</h2>
+        <p class="lead mb-4 animate-fade-in delay-1">
+            Let's discuss how Cyberdyke Tech can fortify your organization's digital defenses.
+        </p>
+        <a href="contact.html" class="btn btn-lg btn-light btn-animated animate-fade-in delay-2" role="button">Contact Our Experts</a>
+    </div>
+</section>
+
+<section id="newsletter" class="py-5 py-lg-6 bg-light-gray">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="section-title mb-4 animate-fade-in">Stay Informed with Cyberdyke Tech</h2>
+                <p class="lead mb-4 animate-fade-in delay-1">
+                    Subscribe to our newsletter for the latest cybersecurity insights, threat intelligence, and webinar announcements.
+                </p>
+                <form id="newsletterForm" class="newsletter-form animate-fade-in delay-2" novalidate>
+                    <div class="input-group mb-3">
+                        <label for="newsletterEmail" class="visually-hidden">Email address</label>
+                        <input type="email" class="form-control form-control-lg" id="newsletterEmail" placeholder="Enter your email address" aria-label="Enter your email address" required>
+                        <button class="btn btn-primary btn-lg btn-animated" type="submit">Subscribe</button>
+                    </div>
+                    <div class="invalid-feedback text-start" id="newsletterEmailFeedback">
+                        Please enter a valid email address.
+                    </div>
+                    <div class="valid-feedback text-start" id="newsletterSuccessFeedback">
+                        Thank you for subscribing!
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer bg-dark text-white py-5">
+    <style>
+        .footer a.text-light:hover {
+            color: #0dcaf0 !important; /* Bootstrap Cyan */
+            text-decoration: underline;
+            transition: color 0.3s ease;
+        }
+        .social-icon:hover {
+            color: #0dcaf0 !important;
+            transition: color 0.3s ease;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4 mb-md-0">
+                <a href="index.html" class="footer-logo-link" aria-label="Cyberdyke Tech Home">
+                    <img src="./image.png" alt="Cyberdyke Tech Logo" class="logo me-2" height="40">
+                </a>
+                <p class="text-light small">AI-Powered Digital Protection for Enterprises.</p>
+                <div class="social-links mt-3">
+                    <a href="https://www.linkedin.com/company/cyberdyketech" class="social-icon me-3 text-white" aria-label="LinkedIn" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/cyberdyketech" class="social-icon me-3 text-white" aria-label="Twitter" target="_blank" rel="noopener">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://facebook.com/cyberdyketech" class="social-icon text-white" aria-label="Facebook" target="_blank" rel="noopener">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-2 col-6 mb-4 mb-md-0">
+                <h5 class="fw-bold mb-3">Company</h5>
+                <ul class="list-unstyled">
+                    <li><a href="about.html" class="text-light text-decoration-none">About Us</a></li>
+                    <li><a href="services.html" class="text-light text-decoration-none">Services</a></li>
+                    <li><a href="webinar.html" class="text-light text-decoration-none">Webinars</a></li>
+                    <li><a href="contact.html" class="text-light text-decoration-none">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2 col-6 mb-4 mb-md-0">
+                <h5 class="fw-bold mb-3">Resources</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light text-decoration-none">Blog</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">Case Studies</a></li>
+                    <li><a href="#" class="text-light text-decoration-none">FAQs</a></li>
+                    <li><a href="privacy.html" class="text-light text-decoration-none">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4">
+                <h5 class="fw-bold mb-3">Contact Us</h5>
+                <p class="text-light small mb-1"><i class="fas fa-map-marker-alt me-2"></i> Hyderabad, Hi-Tech City, India</p>
+                <p class="text-light small mb-1"><i class="fas fa-phone-alt me-2"></i> +91 9391856552</p>
+                <p class="text-light small mb-1"><i class="fas fa-envelope me-2"></i> info@cyberdyketech.com</p>
+            </div>
+        </div>
+
+        <hr class="my-4 border-secondary">
+        <div class="text-center text-light small">
+            <p class="mb-0">© 2026 Cyberdyke Tech. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+<div id="cookieConsent" class="cookie-consent-popup" role="dialog" aria-modal="true" aria-labelledby="cookieConsentHeading" aria-describedby="cookieConsentDescription">
+    <div class="cookie-consent-content">
+        <h3 id="cookieConsentHeading" class="h5 fw-bold mb-2">We Use Cookies</h3>
+        <p id="cookieConsentDescription" class="mb-3">
+            This website uses cookies to ensure you get the best experience on our website. By clicking "Accept All", you consent to the use of all cookies. You can manage your preferences by clicking "Manage Preferences".
+        </p>
+        <div class="d-flex flex-column flex-sm-row justify-content-center gap-2">
+            <button id="acceptCookies" class="btn btn-primary btn-sm btn-animated">Accept All</button>
+            <button id="manageCookies" class="btn btn-outline-secondary btn-sm btn-animated">Manage Preferences</button>
+        </div>
+    </div>
+    <div id="cookiePreferences" class="cookie-preferences-modal" role="dialog" aria-modal="true" aria-labelledby="cookiePreferencesHeading" aria-describedby="cookiePreferencesDescription" style="display: none;">
+        <div class="cookie-preferences-content">
+            <h3 id="cookiePreferencesHeading" class="h5 fw-bold mb-3">Manage Cookie Preferences</h3>
+            <p id="cookiePreferencesDescription" class="text-muted mb-4">
+                Select which types of cookies you'd like to allow. Essential cookies are always enabled for site functionality.
+            </p>
+            <form id="cookiePreferencesForm">
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="essentialCookies" checked disabled>
+                    <label class="form-check-label" for="essentialCookies">
+                        Essential Cookies <span class="text-muted">(Always On)</span>
+                    </label>
+                    <small class="form-text text-muted d-block">Required for basic website functionality.</small>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="analyticsCookies">
+                    <label class="form-check-label" for="analyticsCookies">
+                        Analytics Cookies
+                    </label>
+                    <small class="form-text text-muted d-block">Help us understand how visitors interact with our website.</small>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="marketingCookies">
+                    <label class="form-check-label" for="marketingCookies">
+                        Marketing Cookies
+                    </label>
+                    <small class="form-text text-muted d-block">Used to deliver relevant advertisements.</small>
+                </div>
+                <div class="d-flex justify-content-end gap-2 mt-4">
+                    <button type="button" id="cancelPreferences" class="btn btn-outline-secondary btn-sm btn-animated">Cancel</button>
+                    <button type="submit" id="savePreferences" class="btn btn-primary btn-sm btn-animated">Save Preferences</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/cookie-consent.js"></script>
+</body>
+</html>

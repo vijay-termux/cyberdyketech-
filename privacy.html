@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CYBERDYKE TECH - Global AI-Powered Cybersecurity Solutions</title>
+<meta name="description" content="CYBERDYKE TECH provides global AI-powered cybersecurity solutions. With over a decade of experience in enterprise IT and security, our founder leads the innovation in AI-driven protection.">
+<meta name="keywords" content="cybersecurity, AI, global cybersecurity, enterprise IT, threat detection, vulnerability scanner, cloud security, compliance, security audits, Cyberdyke Tech">
+<meta name="author" content="CYBERDYKE TECH">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.cyberdyketech.com/">
+<meta property="og:title" content="CYBERDYKE TECH - Global AI-Powered Cybersecurity Solutions">
+<meta property="og:description" content="With over a decade of experience in cybersecurity and enterprise IT, our founder drives AI-powered innovations to protect businesses worldwide.">
+<meta property="og:image" content="/assets/images/og-image.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.cyberdyketech.com/">
+<meta property="twitter:title" content="CYBERDYKE TECH - Global AI-Powered Cybersecurity Solutions">
+<meta property="twitter:description" content="AI-powered global cybersecurity for enterprises, startups, and organizations. Led by decades of experience in IT and cyber defense.">
+<meta property="twitter:image" content="/assets/images/twitter-image.png">
+
+<!-- Favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<!-- Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+    /* Absolute Professional Visibility & Accessibility Fixes */
+    body {
+        font-family: 'Inter', sans-serif;
+        background-color: #ffffff;
+        color: #1a202c; /* Enhanced contrast dark slate text color */
+    }
+    
+    .navbar {
+        background: #0b132b !important; /* Solid dark color to guarantee clear navigation visibility */
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 16px 0;
+    }
+    
+    .navbar-brand span {
+        letter-spacing: 1.5px;
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+    .nav-link {
+        font-weight: 500;
+        color: #e2e8f0 !important;
+        transition: color 0.25s ease;
+    }
+    
+    .nav-link:hover, .nav-link.active {
+        color: #0dcaf0 !important; /* Perfect contrast brand cyan */
+    }
+    
+    /* Strong CTA Visibility */
+    .btn-animated {
+        font-weight: 600;
+        transition: all 0.25s ease-in-out;
+    }
+    .btn-animated:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(13, 202, 240, 0.35);
+    }
+    
+    /* Header Contrast Assurance */
+    .page-header-section {
+        background: linear-gradient(135deg, #070c1e 0%, #0b132b 50%, #1c2541 100%) !important;
+        padding: 160px 0 90px 0;
+        position: relative;
+    }
+
+    /* Policy Typography Enhancements */
+    #privacy-policy-content h2 {
+        color: #0b132b;
+        margin-top: 2rem;
+        border-bottom: 2px solid #f7fafc;
+        padding-bottom: 0.5rem;
+    }
+
+    .privacy-list li {
+        position: relative;
+        padding-left: 1.75rem;
+        margin-bottom: 1rem;
+        color: #2d3748;
+    }
+
+    .privacy-list li i {
+        position: absolute;
+        left: 0;
+        top: 4px;
+        font-size: 0.9rem;
+    }
+
+    .bg-light-gray {
+        background-color: #f7fafc !important;
+        border-top: 1px solid #edf2f7;
+        border-bottom: 1px solid #edf2f7;
+    }
+
+    /* High Visibility Enterprise Footer */
+    .footer {
+        background-color: #070c1e !important;
+        color: #cbd5e0;
+        border-top: 2px solid #0dcaf0;
+    }
+    
+    .footer h5 {
+        color: #ffffff;
+        font-size: 0.95rem;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 700;
+    }
+    
+    .footer-links a {
+        color: #a0aec0;
+        transition: all 0.2s ease;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+    
+    .footer-links a:hover {
+        color: #0dcaf0 !important;
+        transform: translateX(4px);
+        text-decoration: none !important;
+    }
+    
+    .social-icon {
+        width: 38px;
+        height: 38px;
+        background: rgba(255, 255, 255, 0.06);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        font-size: 1.1rem;
+        transition: all 0.2s ease;
+    }
+    
+    .social-icon:hover {
+        background: #0dcaf0;
+        color: #070c1e !important;
+        transform: translateY(-2px);
+    }
+    
+    .contact-item i {
+        width: 24px;
+        color: #0dcaf0;
+        font-size: 1rem;
+    }
+</style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100">
+    
+<!-- Professional Header Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar" aria-label="Main navigation">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center text-decoration-none" href="index.html" aria-label="Cyberdyke Tech Home">
+            <img src="/image.png" alt="Cyberdyke Tech Logo" class="logo me-2" height="40">
+            <span class="text-white">CYBERDYKE TECH</span>
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-4">
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="webinar.html">Webinars</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link px-3" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="d-flex">
+                <a href="contact.html" class="btn btn-outline-info btn-animated w-100 px-4" role="button">Get a Free Assessment</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Header Section -->
+<section class="page-header-section text-center text-white d-flex align-items-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold mb-3 animate-fade-in text-white">Privacy Policy</h1>
+        <p class="lead text-light opacity-75 animate-fade-in delay-1 max-width-600 mx-auto">
+            Your trust is our priority. Learn how we defend and manage your data architecture under global compliance frameworks.
+        </p>
+    </div>
+</section>
+
+<!-- Privacy Policy Content Section -->
+<section id="privacy-policy-content" class="py-5 py-lg-6">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <p class="text-muted mb-4 fw-medium"><em>Last updated: July 18, 2025</em></p>
+
+                <h2 class="fw-bold mb-3">1. Introduction</h2>
+                <p class="mb-4 text-darklh leading-relaxed">
+                    Cyberdyke Tech ("we," "our," or "us") is committed to protecting the privacy and security of your personal data. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <a href="https://www.cyberdyketech.com" class="text-primary text-decoration-none fw-semibold">www.cyberdyketech.com</a>, use our services, or interact with us. We adhere to the principles of the General Data Protection Regulation (GDPR) and other applicable data protection laws.
+                </p>
+
+                <h2 class="fw-bold mb-3">2. Information We Collect</h2>
+                <p class="mb-3">We may collect personal data from you in various ways, including:</p>
+                <ul class="list-unstyled mb-4 privacy-list">
+                    <li><i class="fas fa-shield-alt text-primary"></i> <strong>Directly from you:</strong> When you fill out forms (e.g., contact form, webinar registration, newsletter signup), communicate with us via email or phone, or engage with our services. This may include your name, email address, phone number, company name, job title, and message content.</li>
+                    <li><i class="fas fa-shield-alt text-primary"></i> <strong>Automatically:</strong> When you visit our website, we may collect certain information automatically through cookies and similar technologies. This includes your IP address, browser type, operating system, referring URLs, pages viewed, and the dates/times of your visits.</li>
+                    <li><i class="fas fa-shield-alt text-primary"></i> <strong>From third parties:</strong> We may receive information from third-party services like reCAPTCHA to verify human interaction and prevent spam.</li>
+                </ul>
+
+                <h2 class="fw-bold mb-3">3. How We Use Your Information</h2>
+                <p class="mb-3">We use the collected information for various purposes, including:</p>
+                <ul class="list-unstyled mb-4 privacy-list">
+                    <li><i class="fas fa-check-circle text-success"></i> To provide and maintain our services.</li>
+                    <li><i class="fas fa-check-circle text-success"></i> To respond to your inquiries and provide customer support.</li>
+                    <li><i class="fas fa-check-circle text-success"></i> To process your webinar registrations and newsletter subscriptions.</li>
+                    <li><i class="fas fa-check-circle text-success"></i> To improve our website, services, and user experience.</li>
+                    <li><i class="fas fa-check-circle text-success"></i> To send you marketing and promotional communications (with your consent).</li>
+                    <li><i class="fas fa-check-circle text-success"></i> To monitor and analyze usage and trends to enhance functionality.</li>
+                    <li><i class="fas fa-check-circle text-success"></i> To detect, prevent, and address technical issues and security incidents.</li>
+                    <li><i class="fas fa-check-circle text-success"></i> To comply with legal obligations and enforce our terms and conditions.</li>
+                </ul>
+
+                <h2 class="fw-bold mb-3">4. Cookie Policy and Consent</h2>
+                <p class="mb-3">
+                    Our website uses cookies to enhance your browsing experience. Cookies are small text files stored on your device. We use:
+                </p>
+                <ul class="list-unstyled mb-4 privacy-list">
+                    <li><i class="fas fa-cookie text-info"></i> <strong>Essential Cookies:</strong> Necessary for the website to function correctly (e.g., session management, security). These cannot be disabled.</li>
+                    <li><i class="fas fa-cookie text-info"></i> <strong>Analytics Cookies:</strong> Help us understand how visitors interact with our website by collecting and reporting information anonymously (e.g., Google Analytics).</li>
+                    <li><i class="fas fa-cookie text-info"></i> <strong>Marketing Cookies:</strong> Used to track visitors across websites to display relevant advertisements.</li>
+                </ul>
+                <p class="mb-4">
+                    We obtain your consent for non-essential cookies through a cookie consent banner. You have the right to accept or decline these cookies. You can change your cookie preferences at any time via the "Manage Preferences" option in the cookie consent popup or by adjusting your browser settings. Your consent choices are logged securely.
+                </p>
+
+                <h2 class="fw-bold mb-3">5. Data Sharing and Disclosure</h2>
+                <p class="mb-3">We do not sell, trade, or otherwise transfer your personal data to outside parties without your explicit consent, except in the following circumstances:</p>
+                <ul class="list-unstyled mb-4 privacy-list">
+                    <li><i class="fas fa-exchange-alt text-primary"></i> <strong>Service Providers:</strong> We may share your data with trusted third-party service providers who assist us in operating our website, conducting our business, or serving our users (e.g., hosting providers, email service providers, analytics providers). These parties are contractually obligated to keep your information confidential and use it only for the purposes for which we disclose it to them.</li>
+                    <li><i class="fas fa-exchange-alt text-primary"></i> <strong>Legal Requirements:</strong> We may disclose your information if required to do so by law or in response to valid requests by public authorities (e.g., a court order or government agency).</li>
+                    <li><i class="fas fa-exchange-alt text-primary"></i> <strong>Business Transfers:</strong> In the event of a merger, acquisition, or asset sale, your personal data may be transferred as part of the transaction.</li>
+                </ul>
+
+                <h2 class="fw-bold mb-3">6. Data Security</h2>
+                <p class="mb-4">
+                    We implement a variety of security measures to maintain the safety of your personal data. These include using secure servers, encryption (SSL/TLS), firewalls, and regular security audits. We restrict access to your personal data to employees, agents, contractors, and other third parties who have a business need to know. They will only process your personal data on our instructions and are subject to a duty of confidentiality.
+                </p>
+
+                <h2 class="fw-bold mb-3">7. Your Data Protection Rights (GDPR)</h2>
+                <p class="mb-3">Under GDPR, you have the following rights regarding your personal data:</p>
+                <ul class="list-unstyled mb-4 privacy-list">
+                    <li><i class="fas fa-angle-double-right text-info"></i> <strong>Right to Access:</strong> You have the right to request copies of your personal data.</li>
+                    <li><i class="fas fa-angle-double-right text-info"></i> <strong>Right to Rectification:</strong> You have the right to request that we correct any information you believe is inaccurate or complete information you believe is incomplete.</li>
+                    <li><i class="fas fa-angle-double-right text-info"></i> <strong>Right to Erasure:</strong> You have the right to request that we erase your personal data, under certain conditions.</li>
+                    <li><i class="fas fa-angle-double-right text-info"></i> <strong>Right to Restrict Processing:</strong> You have the right to request that we restrict the processing of your personal data, under certain conditions.</li>
+                    <li><i class="fas fa-angle-double-right text-info"></i> <strong>Right to Object to Processing:</strong> You have the right to object to our processing of your personal data, under certain conditions.</li>
+                    <li><i class="fas fa-angle-double-right text-info"></i> <strong>Right to Data Portability:</strong> You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</li>
+                </ul>
+                <p class="mb-4">
+                    To exercise any of these rights, please contact us using the details provided in the "Contact Us" section below. We will respond to your request within one month.
+                </p>
+
+                <h2 class="fw-bold mb-3">8. Data Retention</h2>
+                <p class="mb-4">
+                    We will retain your personal data only for as long as is necessary for the purposes set out in this Privacy Policy, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements).
+                </p>
+
+                <h2 class="fw-bold mb-3">9. Third-Party Websites</h2>
+                <p class="mb-4">
+                    Our website may contain links to third-party websites that are not operated by us. If you click on a third-party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+                </p>
+
+                <h2 class="fw-bold mb-3">10. Changes to This Privacy Policy</h2>
+                <p class="mb-4">
+                    We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+                </p>
+
+                <h2 class="fw-bold mb-3">11. Contact Us</h2>
+                <p class="mb-3">If you have any questions about this Privacy Policy, please contact us:</p>
+                <ul class="list-unstyled mb-4 privacy-list">
+                    <li><i class="fas fa-envelope text-primary"></i> By email: <a href="mailto:info@cyberdyketech.com" class="text-primary text-decoration-none fw-medium">info@cyberdyketech.com</a></li>
+                    <li><i class="fas fa-phone-alt text-primary"></i> By phone: +91 9391856552</li>
+                    <li><i class="fas fa-map-marker-alt text-primary"></i> By mail: Hyderabad, Hi-Tech City, 500081, India</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter Signup Section -->
+<section id="newsletter" class="py-5 py-lg-6 bg-light-gray">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center">
+                <h2 class="fw-bold mb-3">Stay Informed with Cyberdyke Tech</h2>
+                <p class="text-muted mb-4 fs-5">
+                    Subscribe to our threat intelligence feeds for critical ecosystem updates, malware advisories, and architecture briefings.
+                </p>
+                <form id="newsletterForm" class="row g-2 justify-content-center" novalidate>
+                    <div class="col-md-8">
+                        <label for="newsletterEmail" class="visually-hidden">Email address</label>
+                        <input type="email" class="form-control form-control-lg border-secondary-subtle" id="newsletterEmail" placeholder="Enter your business email address" required>
+                        <div class="invalid-feedback text-start" id="newsletterEmailFeedback">
+                            Please enter a secure and valid email address.
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-primary btn-lg btn-animated w-100" type="submit">Subscribe Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- High-Contrast Enterprise Footer -->
+<footer class="footer py-5">
+    <div class="container">
+        <div class="row gy-4">
+            <!-- Brand Column -->
+            <div class="col-lg-4 col-md-6">
+                <a href="index.html" class="d-inline-flex align-items-center mb-3 text-decoration-none" aria-label="Cyberdyke Tech Home">
+                    <img src="./image.png" alt="Cyberdyke Tech Logo" class="logo me-2" height="40">    
+                    <span class="text-white">CYBERDYKE TECH</span>
+                </a>
+                <p class="small text-secondary mb-4 pe-lg-3">
+                    Next-generation global cybersecurity architectures powered by native AI telemetry. Securing distributed endpoints and critical cloud infrastructure against elite threat vectors.
+                </p>
+                <div class="d-flex gap-2">
+                    <a href="https://www.linkedin.com/company/cyberdyketech" class="social-icon text-white" aria-label="LinkedIn" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/cyberdyketech" class="social-icon text-white" aria-label="Twitter" target="_blank" rel="noopener">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://facebook.com/cyberdyketech" class="social-icon text-white" aria-label="Facebook" target="_blank" rel="noopener">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="col-lg-2 col-6 footer-links">
+                <h5>Platform</h5>
+                <ul class="list-unstyled">
+                    <li><a href="about.html" class="text-decoration-none">About Us</a></li>
+                    <li><a href="services.html" class="text-decoration-none">Services Portfolio</a></li>
+                    <li><a href="webinar.html" class="text-decoration-none">Threat Webinars</a></li>
+                    <li><a href="contact.html" class="text-decoration-none">Contact Operations</a></li>
+                </ul>
+            </div>
+
+            <!-- Resources Links -->
+            <div class="col-lg-2 col-6 footer-links">
+                <h5>Intelligence</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-decoration-none">Insights Blog</a></li>
+                    <li><a href="#" class="text-decoration-none">Case Studies</a></li>
+                    <li><a href="#" class="text-decoration-none">Security Briefs</a></li>
+                    <li><a href="privacy.html" class="text-decoration-none">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Technical Operations Contact Desk -->
+            <div class="col-lg-4 col-md-6 small">
+                <h5>Global HQ Response</h5>
+                <p class="contact-item mb-2 d-flex align-items-start text-secondary">
+                    <i class="fas fa-map-marker-alt mt-1 me-2"></i>
+                    <span>Hi-Tech City, Hyderabad, 500081, India</span>
+                </p>
+                <p class="contact-item mb-2 d-flex align-items-center text-secondary">
+                    <i class="fas fa-phone-alt me-2"></i>
+                    <span>+91 9391856552</span>
+                </p>
+                <p class="contact-item mb-3 d-flex align-items-center text-secondary">
+                    <i class="fas fa-envelope me-2"></i>
+                    <a href="mailto:info@cyberdyketech.com" class="text-info text-decoration-none">info@cyberdyketech.com</a>
+                </p>
+                <div class="d-inline-flex align-items-center bg-dark text-info px-3 py-1.5 rounded border border-secondary small">
+                    <span class="p-1 bg-info rounded-circle me-2 animate-pulse"></span> SOC Status: Active & Operational
+                </div>
+            </div>
+        </div>
+        
+        <hr class="my-4" style="border-color: rgba(255,255,255,0.08);">
+        
+        <div class="row align-items-center text-secondary small">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0">&copy; 2026 Cyberdyke Tech. All rights reserved.</p>
+            </div>
+            <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+                <span class="me-3"><i class="fas fa-certificate text-info me-1"></i> ISO 27001 Certified</span>
+                <span><i class="fas fa-user-shield text-info me-1"></i> GDPR Architecture Compliant</span>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Cookie Consent Popup -->
+<div id="cookieConsent" class="cookie-consent-popup" role="dialog" aria-modal="true" aria-labelledby="cookieConsentHeading" aria-describedby="cookieConsentDescription">
+    <div class="cookie-consent-content">
+        <h3 id="cookieConsentHeading" class="h5 fw-bold mb-2">We Use Cookies</h3>
+        <p id="cookieConsentDescription" class="mb-3">
+            This website uses cookies to ensure you get the best experience on our website. By clicking "Accept All", you consent to the use of all cookies. You can manage your preferences by clicking "Manage Preferences".
+        </p>
+        <div class="d-flex flex-column flex-sm-row justify-content-center gap-2">
+            <button id="acceptCookies" class="btn btn-primary btn-sm btn-animated">Accept All</button>
+            <button id="manageCookies" class="btn btn-outline-secondary btn-sm btn-animated">Manage Preferences</button>
+        </div>
+    </div>
+    <div id="cookiePreferences" class="cookie-preferences-modal" role="dialog" aria-modal="true" aria-labelledby="cookiePreferencesHeading" aria-describedby="cookiePreferencesDescription" style="display: none;">
+        <div class="cookie-preferences-content">
+            <h3 id="cookiePreferencesHeading" class="h5 fw-bold mb-3">Manage Cookie Preferences</h3>
+            <p id="cookiePreferencesDescription" class="text-muted mb-4">
+                Select which types of cookies you'd like to allow. Essential cookies are always enabled for site functionality.
+            </p>
+            <form id="cookiePreferencesForm">
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="essentialCookies" checked disabled>
+                    <label class="form-check-label" for="essentialCookies">
+                        Essential Cookies <span class="text-muted">(Always On)</span>
+                    </label>
+                    <small class="form-text text-muted d-block">Required for basic website functionality.</small>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="analyticsCookies">
+                    <label class="form-check-label" for="analyticsCookies">
+                        Analytics Cookies
+                    </label>
+                    <small class="form-text text-muted d-block">Help us understand how visitors interact with our website.</small>
+                </div>
+                <div class="form-check mb-3">
+                    <input class="form-check-input" type="checkbox" id="marketingCookies">
+                    <label class="form-check-label" for="marketingCookies">
+                        Marketing Cookies
+                    </label>
+                    <small class="form-text text-muted d-block">Used to deliver relevant advertisements.</small>
+                </div>
+                <div class="d-flex justify-content-end gap-2 mt-4">
+                    <button type="button" id="cancelPreferences" class="btn btn-outline-secondary btn-sm btn-animated">Cancel</button>
+                    <button type="submit" id="savePreferences" class="btn btn-primary btn-sm btn-animated">Save Preferences</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Custom JS -->
+<script src="js/main.js"></script>
+<script src="js/cookie-consent.js"></script>
+</body>
+</html>

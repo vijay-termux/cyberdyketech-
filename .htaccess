@@ -1,0 +1,19 @@
+RewriteEngine On
+
+# 1. Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# 2. Remove .html extension from direct requests (Redirect /page.html to /page)
+# Using (.+?) is safer than ([^.]+) in case your URLs ever contain hyphens or numbers
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
+
+# 3. Internally map extensionless URLs to .html files
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+# Changed to ^(.*)$ to support nested directories (e.g., /services/web mapping to /services/web.html)
+RewriteRule ^(.*)$ $1.html [L]
+
+# 4. Custom 404 Page
+ErrorDocument 404 /404.html

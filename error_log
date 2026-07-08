@@ -1,0 +1,301 @@
+[06-Sep-2025 18:58:58 UTC] PHP Warning:  require_once(/home/hdjm2f31jkd9/public_html/api/controllers/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/api/controllers/OAuthController.php on line 3
+[06-Sep-2025 18:58:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hdjm2f31jkd9/public_html/api/controllers/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/api/controllers/OAuthController.php:3
+Stack trace:
+#0 /home/hdjm2f31jkd9/public_html/api/classes/Router.php(57): require_once()
+#1 /home/hdjm2f31jkd9/public_html/api/index.php(105): Router->handleRequest()
+#2 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/api/controllers/OAuthController.php on line 3
+[08-Sep-2025 05:55:32 UTC] PHP Warning:  require_once(/home/hdjm2f31jkd9/public_html/api/controllers/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/api/controllers/OAuthController.php on line 3
+[08-Sep-2025 05:55:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hdjm2f31jkd9/public_html/api/controllers/../vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/api/controllers/OAuthController.php:3
+Stack trace:
+#0 /home/hdjm2f31jkd9/public_html/api/classes/Router.php(57): require_once()
+#1 /home/hdjm2f31jkd9/public_html/api/index.php(105): Router->handleRequest()
+#2 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/api/controllers/OAuthController.php on line 3
+[09-Sep-2025 13:17:02 UTC] APP ERROR in contact_handler.php: Invalid request method.
+[14-Sep-2025 03:58:05 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 03:58:05 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 03:58:05 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 03:58:05 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 04:16:21 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 04:16:21 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 04:16:24 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 04:16:24 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 04:17:06 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 04:17:06 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 05:05:35 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 05:05:35 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 05:05:35 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 05:05:35 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:19:29 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:19:29 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:19:33 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:19:33 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:19:44 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:19:44 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:22:00 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:22:00 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:24:17 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:24:17 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:24:24 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:24:24 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:24:36 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:24:36 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:24:58 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:24:58 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:25:22 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:25:22 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:30:40 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:30:40 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:31:05 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:31:05 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:31:25 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:31:25 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:31:46 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:31:46 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:42:07 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:42:07 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:46:43 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:46:43 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:51:24 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:51:24 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:52:20 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:52:20 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:56:28 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:56:28 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:56:58 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:56:58 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 10:56:58 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 10:56:58 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 11:42:13 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 11:42:13 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 11:42:13 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 11:42:13 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 11:42:13 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 11:42:13 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 11:42:13 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 11:42:13 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 11:49:05 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 11:49:05 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 11:49:24 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 11:49:24 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[14-Sep-2025 11:49:50 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/cookie-log.php on line 13
+[14-Sep-2025 11:49:50 UTC] FATAL: Failed to include or initialize db_config.php: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') on line 13 in /home/hdjm2f31jkd9/public_html/cookie-log.php
+[15-Sep-2025 14:04:32 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 12
+[15-Sep-2025 14:04:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 12
+[15-Sep-2025 14:04:42 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 12
+[15-Sep-2025 14:04:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 12
+[15-Sep-2025 14:05:20 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 12
+[15-Sep-2025 14:05:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 12
+[15-Sep-2025 14:13:15 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 12
+[15-Sep-2025 14:13:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 12
+[15-Sep-2025 14:13:28 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 12
+[15-Sep-2025 14:13:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 12
+[15-Sep-2025 14:18:59 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:18:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:19:20 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:19:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:19:51 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:19:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:19:54 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:19:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:19:56 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:19:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:19:58 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:19:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:21:14 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:21:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 21
+[15-Sep-2025 14:24:17 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 22
+[15-Sep-2025 14:24:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 22
+[15-Sep-2025 14:24:48 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 22
+[15-Sep-2025 14:24:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 22
+[15-Sep-2025 14:33:32 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 26
+[15-Sep-2025 14:33:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 26
+[15-Sep-2025 14:33:54 UTC] PHP Warning:  require_once(db_config.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 26
+[15-Sep-2025 14:33:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'db_config.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 26
+[15-Sep-2025 14:47:17 UTC] PHP Warning:  Undefined array key "csrf_token" in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 32
+[15-Sep-2025 14:47:17 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in /home/hdjm2f31jkd9/public_html/contact_handler.php:32
+Stack trace:
+#0 /home/hdjm2f31jkd9/public_html/contact_handler.php(32): hash_equals()
+#1 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 32
+[15-Sep-2025 14:47:38 UTC] PHP Warning:  Undefined array key "csrf_token" in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 32
+[15-Sep-2025 14:47:38 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in /home/hdjm2f31jkd9/public_html/contact_handler.php:32
+Stack trace:
+#0 /home/hdjm2f31jkd9/public_html/contact_handler.php(32): hash_equals()
+#1 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 32
+[15-Sep-2025 14:53:15 UTC] PHP Warning:  Undefined array key "csrf_token" in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 32
+[15-Sep-2025 14:53:15 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in /home/hdjm2f31jkd9/public_html/contact_handler.php:32
+Stack trace:
+#0 /home/hdjm2f31jkd9/public_html/contact_handler.php(32): hash_equals()
+#1 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 32
+[15-Sep-2025 14:56:18 UTC] PHP Warning:  Undefined array key "csrf_token" in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 32
+[15-Sep-2025 14:56:18 UTC] PHP Fatal error:  Uncaught TypeError: hash_equals(): Argument #1 ($known_string) must be of type string, null given in /home/hdjm2f31jkd9/public_html/contact_handler.php:32
+Stack trace:
+#0 /home/hdjm2f31jkd9/public_html/contact_handler.php(32): hash_equals()
+#1 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 32
+[17-Sep-2025 07:23:58 UTC] Signup Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+[17-Sep-2025 07:29:17 UTC] Signup Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+[17-Sep-2025 07:31:11 UTC] Signup Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+[17-Sep-2025 13:42:22 UTC] Signup Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+[17-Sep-2025 13:56:57 UTC] Signup Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+[17-Sep-2025 13:58:22 UTC] Signup Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+[17-Sep-2025 14:01:35 UTC] PHP Fatal error:  Uncaught Error: Call to private Database::__construct() from global scope in /home/hdjm2f31jkd9/public_html/auth_process.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/auth_process.php on line 28
+[17-Sep-2025 14:02:43 UTC] PHP Fatal error:  Uncaught Error: Call to private Database::__construct() from global scope in /home/hdjm2f31jkd9/public_html/auth_process.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/auth_process.php on line 28
+[17-Sep-2025 14:07:44 UTC] Signup Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+[17-Sep-2025 14:08:05 UTC] Signup Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+[17-Sep-2025 14:20:12 UTC] Signup Error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'username'
+[17-Sep-2025 14:34:23 UTC] Login Error: SQLSTATE[HY093]: Invalid parameter number
+[17-Sep-2025 14:34:28 UTC] Login Error: SQLSTATE[HY093]: Invalid parameter number
+[17-Sep-2025 14:39:15 UTC] Login Error: SQLSTATE[HY093]: Invalid parameter number
+[17-Sep-2025 14:45:40 UTC] Login Error: SQLSTATE[HY093]: Invalid parameter number
+[17-Sep-2025 14:48:28 UTC] Login Error: SQLSTATE[HY093]: Invalid parameter number
+[17-Sep-2025 15:45:46 UTC] Database Error: SQLSTATE[HY093]: Invalid parameter number
+[17-Sep-2025 15:45:58 UTC] Database Error: SQLSTATE[HY093]: Invalid parameter number
+[17-Sep-2025 15:47:34 UTC] Database Error: SQLSTATE[HY093]: Invalid parameter number
+[17-Sep-2025 16:55:01 UTC] Database Error: SQLSTATE[HY093]: Invalid parameter number
+[17-Sep-2025 16:55:10 UTC] Database Error: SQLSTATE[HY093]: Invalid parameter number
+[17-Sep-2025 17:21:57 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/hdjm2f31jkd9/public_html/dashboard.php on line 16
+[17-Sep-2025 17:22:09 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/hdjm2f31jkd9/public_html/dashboard.php on line 16
+[17-Sep-2025 23:36:30 UTC] PHP Warning:  require_once(database.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[17-Sep-2025 23:36:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'database.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/signup_process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[25-Sep-2025 12:44:40 UTC] Application Error: Invalid request method.
+[26-Sep-2025 02:27:18 UTC] PHP Warning:  require_once(database.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[26-Sep-2025 02:27:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'database.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/signup_process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[28-Sep-2025 02:28:23 UTC] PHP Warning:  require_once(database.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[28-Sep-2025 02:28:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'database.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/signup_process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[30-Sep-2025 02:28:48 UTC] PHP Warning:  require_once(database.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[30-Sep-2025 02:28:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'database.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/signup_process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[30-Sep-2025 02:54:40 UTC] PHP Warning:  require_once(database.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[30-Sep-2025 02:54:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'database.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/signup_process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[07-Oct-2025 10:20:30 UTC] Application Error: Invalid request method.
+[10-Oct-2025 05:12:37 UTC] Application Error: Invalid request method.
+[11-Oct-2025 03:24:30 UTC] PHP Warning:  require_once(database.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[11-Oct-2025 03:24:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'database.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/signup_process.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/signup_process.php on line 3
+[02-Nov-2025 20:33:43 UTC] Application Error: Invalid request method.
+[04-Nov-2025 12:06:05 UTC] Application Error: Invalid request method.
+[20-Nov-2025 03:18:32 UTC] Application Error: Invalid request method.
+[28-Nov-2025 02:18:12 UTC] Application Error: Invalid request method.
+[03-Dec-2025 11:32:37 UTC] Application Error: Invalid request method.
+[19-Dec-2025 14:18:35 UTC] Application Error: Invalid request method.
+[27-Dec-2025 00:53:53 UTC] Application Error: Invalid request method.
+[31-Dec-2025 21:37:44 UTC] Application Error: Invalid request method.
+[12-Jan-2026 04:27:06 UTC] Application Error: Invalid request method.
+[15-Jan-2026 23:12:44 UTC] Application Error: Invalid request method.
+[26-Feb-2026 14:06:28 UTC] Application Error: Invalid request method.
+[21-Mar-2026 01:24:47 UTC] Application Error: Invalid request method.
+[25-Mar-2026 04:35:53 UTC] PHP Warning:  require_once(/home/hdjm2f31jkd9/public_html/vendor/autoload.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 24
+[25-Mar-2026 04:35:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hdjm2f31jkd9/public_html/vendor/autoload.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 24
+[25-Mar-2026 04:48:09 UTC] PHPMailer/SMTP Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[25-Mar-2026 05:10:08 UTC] PHPMailer/SMTP Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[25-Mar-2026 05:10:53 UTC] PHPMailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[25-Mar-2026 05:20:59 UTC] PHPMailer Error: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[25-Mar-2026 05:31:26 UTC] PHP Warning:  require(/home/hdjm2f31jkd9/public_html/PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 14
+[25-Mar-2026 05:31:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hdjm2f31jkd9/public_html/PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/contact_handler.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 14
+[25-Mar-2026 05:35:27 UTC] PHP Parse error:  syntax error, unexpected token "use" in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 25
+[25-Mar-2026 05:37:47 UTC] PHP Warning:  require_once(/home/hdjm2f31jkd9/public_html/PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 35
+[25-Mar-2026 05:37:47 UTC] FATAL ERROR: Failed opening required '/home/hdjm2f31jkd9/public_html/PHPMailer/src/Exception.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php')
+[25-Mar-2026 05:45:43 UTC] PHP Warning:  require_once(/home/hdjm2f31jkd9/public_html/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 31
+[25-Mar-2026 05:45:43 UTC] ERROR: Failed opening required '/home/hdjm2f31jkd9/public_html/PHPMailer/src/PHPMailer.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php')
+[25-Mar-2026 06:25:57 UTC] PHP Warning:  require_once(/home/hdjm2f31jkd9/public_html/PHPMailer/src/PHPMailer.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/contact_handler.php on line 31
+[25-Mar-2026 06:25:57 UTC] ERROR: Failed opening required '/home/hdjm2f31jkd9/public_html/PHPMailer/src/PHPMailer.php' (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php')
+[25-Mar-2026 06:31:18 UTC] ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[25-Mar-2026 17:58:04 UTC] Application Error: Invalid request method.
+[25-Mar-2026 17:58:14 UTC] Application Error: Invalid request method.
+[25-Mar-2026 17:58:44 UTC] Application Error: Invalid request method.
+[27-Mar-2026 09:54:59 UTC] Application Error: Invalid request method.
+[27-Mar-2026 13:29:03 UTC] Application Error: Invalid request method.
+[11-Apr-2026 06:44:30 UTC] APP ERROR in contact_handler.php: SMTP Connection Failed: Connection timed out (110)
+[14-Apr-2026 21:31:50 UTC] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/profile.php on line 3
+[14-Apr-2026 21:31:50 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/profile.php on line 3
+[14-Apr-2026 21:31:50 UTC] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home/hdjm2f31jkd9/public_html/profile.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/profile.php on line 5
+[15-Apr-2026 05:53:06 UTC] PHP Warning:  include(includes/header.php): Failed to open stream: No such file or directory in /home/hdjm2f31jkd9/public_html/profile.php on line 3
+[15-Apr-2026 05:53:06 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/alt/php83/usr/share/pear:/opt/alt/php83/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hdjm2f31jkd9/public_html/profile.php on line 3
+[15-Apr-2026 05:53:06 UTC] PHP Fatal error:  Uncaught Error: Class "Database" not found in /home/hdjm2f31jkd9/public_html/profile.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/hdjm2f31jkd9/public_html/profile.php on line 5

@@ -1,0 +1,58 @@
+[11-Apr-2026 06:55:30 UTC] --- NEW REQUEST STARTED AT 2026-04-11 06:55:30 ---
+[11-Apr-2026 06:55:30 UTC] DB Connection Successful
+[11-Apr-2026 06:55:30 UTC] DB Insert Successful. ID: 8
+[11-Apr-2026 06:55:30 UTC] PHP Mail() accepted the message
+[11-Apr-2026 06:59:06 UTC] --- NEW REQUEST STARTED AT 2026-04-11 06:59:06 ---
+[11-Apr-2026 06:59:06 UTC] DB Connection Successful
+[11-Apr-2026 06:59:06 UTC] DB Insert Successful. ID: 9
+[11-Apr-2026 06:59:06 UTC] Mail sent successfully
+[11-Apr-2026 07:35:09 UTC] --- NEW REQUEST STARTED AT 2026-04-11 07:35:09 ---
+[11-Apr-2026 07:35:09 UTC] DB Connection Successful
+[11-Apr-2026 07:35:09 UTC] DB Insert Successful. ID: 10
+[11-Apr-2026 07:39:31 UTC] SMTP ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server SMTP code: 110 Additional SMTP info: Connection timed out
+[11-Apr-2026 08:08:15 UTC] --- NEW REQUEST STARTED AT 2026-04-11 08:08:15 ---
+[11-Apr-2026 08:08:15 UTC] DB Connection Successful
+[11-Apr-2026 08:08:15 UTC] DB Insert Successful. ID: 11
+[11-Apr-2026 08:12:37 UTC] SMTP ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server SMTP code: 110 Additional SMTP info: Connection timed out
+[11-Apr-2026 08:27:23 UTC] --- NEW REQUEST 2026-04-11 08:27:23 ---
+[11-Apr-2026 08:31:44 UTC] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server SMTP code: 110 Additional SMTP info: Connection timed out
+[11-Apr-2026 09:45:16 UTC] MAIL ERROR: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+[11-Apr-2026 09:57:07 UTC] DB Insert Successful: ID 15
+[11-Apr-2026 09:57:07 UTC] MAIL SENT
+[14-Apr-2026 12:40:46 UTC] DB Insert Successful: ID 16
+[14-Apr-2026 12:40:46 UTC] MAIL SENT
+[14-Apr-2026 12:53:50 UTC] DB ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'full_name' in 'INSERT INTO'
+[14-Apr-2026 12:58:32 UTC] DB Insert Successful: ID 1
+[14-Apr-2026 12:58:32 UTC] LEAD MAIL SENT to info@cyberdyketech.org.in
+[14-Apr-2026 12:58:38 UTC] CLIENT AUTO-REPLY SENT to sagarvijay075@gmail.com
+[14-Apr-2026 13:00:40 UTC] DB Insert Successful: ID 2
+[14-Apr-2026 13:00:41 UTC] LEAD MAIL SENT to info@cyberdyketech.org.in
+[14-Apr-2026 13:00:49 UTC] CLIENT AUTO-REPLY SENT to sagarvijay075@gmail.com
+[14-Apr-2026 13:11:38 UTC] DB Insert Successful: ID 3
+[14-Apr-2026 13:11:38 UTC] MAIL FAILED to info@cyberdyketech.org.in: SMTP Error: Could not connect to SMTP host.
+[14-Apr-2026 13:11:38 UTC] MAIL FAILED to sagarvijay075@gmail.com: SMTP Error: Could not connect to SMTP host.
+[14-Apr-2026 13:18:05 UTC] DB Insert Successful: ID 4
+[14-Apr-2026 13:19:08 UTC] DB Insert Successful: ID 5
+[14-Apr-2026 13:21:01 UTC] DB Insert OK: ID 6
+[14-Apr-2026 13:21:11 UTC] MAIL FAILED to info@cyberdyketech.org.in: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server SMTP code: 110 Additional SMTP info: Connection timed out
+[14-Apr-2026 13:21:21 UTC] MAIL FAILED to sagarvijay075@gmail.com: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server SMTP code: 110 Additional SMTP info: Connection timed out
+[14-Apr-2026 13:22:28 UTC] MAIL FAILED to info@cyberdyketech.org.in: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server SMTP code: 110 Additional SMTP info: Connection timed out
+[14-Apr-2026 13:23:30 UTC] MAIL FAILED to info@cyberdyketech.org.in: SMTP Error: Could not connect to SMTP host. Failed to connect to server SMTP server error: Failed to connect to server SMTP code: 110 Additional SMTP info: Connection timed out
+[14-Apr-2026 13:24:36 UTC] DB Insert OK: ID 7
+[14-Apr-2026 13:24:36 UTC] PHPMAILER SENT to info@cyberdyketech.org.in
+[14-Apr-2026 13:24:44 UTC] PHPMAILER SENT to sagarvijay075@gmail.com
+[14-Apr-2026 13:31:38 UTC] DB Insert OK: ID 8
+[14-Apr-2026 13:31:47 UTC] PHPMAILER SENT to sagarvijay075@gmail.com (CC: info@cyberdyketech.org.in)
+[14-Apr-2026 13:31:55 UTC] PHPMAILER SENT to sagarvijay075@gmail.com
+[14-Apr-2026 13:34:09 UTC] DB Insert OK: ID 9
+[14-Apr-2026 13:34:17 UTC] PHPMAILER SENT to sagarvijay075@gmail.com (CC: info@cyberdyketech.org.in)
+[14-Apr-2026 13:34:25 UTC] PHPMAILER SENT to nethunter35@gmail.com
+[25-Apr-2026 15:50:33 UTC] DB Insert OK: ID 10
+[25-Apr-2026 15:50:40 UTC] PHPMAILER SENT to sagarvijay075@gmail.com (CC: info@cyberdyketech.org.in)
+[25-Apr-2026 15:50:49 UTC] PHPMAILER SENT to nethunter35@gmail.com
+[29-May-2026 07:35:41 UTC] DB Insert OK: ID 11
+[29-May-2026 07:35:49 UTC] PHPMAILER SENT to sagarvijay075@gmail.com (CC: info@cyberdyketech.org.in)
+[29-May-2026 07:35:58 UTC] PHPMAILER SENT to nethunter35@gmail.com
+[09-Jun-2026 18:59:51 UTC] DB Insert OK: ID 12
+[09-Jun-2026 18:59:59 UTC] PHPMAILER SENT to sagarvijay075@gmail.com (CC: info@cyberdyketech.org.in)
+[09-Jun-2026 19:00:08 UTC] PHPMAILER SENT to nethunter35@gmail.com
