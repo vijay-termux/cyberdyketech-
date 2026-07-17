@@ -20,19 +20,17 @@ export default function TrustBadges() {
   ]
 
   return (
-    <section id="trust-badges" className="py-5 py-lg-5">
+    <section className="trust-section">
       <div className="container">
-        <h2 className="text-center mb-5 section-title animate-fade-in">Why Choose Cyberdyke Tech?</h2>
-        <div className="row text-center g-4">
+        <h2 className="section-title">Why Choose Cyberdyke Tech?</h2>
+        <div className="trust-grid">
           {badges.map((badge, index) => (
-            <div key={index} className={`col-md-4 animate-fade-in delay-${index + 1}`}>
-              <div className="trust-item p-4 h-100">
-                <div className="trust-icon-wrapper">
-                  <i className={`${badge.icon} fa-3x`}></i>
-                </div>
-                <h3 className="h5 fw-bold mb-2">{badge.title}</h3>
-                <p className="text-muted small mb-0">{badge.description}</p>
+            <div key={index} className="trust-card">
+              <div className="trust-icon">
+                <i className={`${badge.icon}`}></i>
               </div>
+              <h3>{badge.title}</h3>
+              <p>{badge.description}</p>
             </div>
           ))}
         </div>

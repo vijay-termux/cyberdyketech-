@@ -1,0 +1,110 @@
+.process-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, rgba(10, 10, 30, 0.8) 0%, rgba(30, 20, 50, 0.8) 100%);
+}
+
+.process-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.process-header h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #00d4ff, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+}
+
+.process-header p {
+  font-size: 1.2rem;
+  color: #00d4ff;
+}
+
+.process-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.process-step {
+  position: relative;
+  padding: 30px 20px;
+  background: rgba(0, 212, 255, 0.05);
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 12px;
+  text-align: center;
+  color: #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.process-step:hover {
+  transform: translateY(-10px);
+  border-color: rgba(0, 212, 255, 0.5);
+  background: rgba(0, 212, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+}
+
+.step-number {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #00d4ff, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.process-step h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.process-step p {
+  font-size: 1rem;
+  color: #a0a0a0;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.connector {
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  width: 30px;
+  height: 2px;
+  background: linear-gradient(90deg, #00d4ff, transparent);
+  transform: translateY(-50%);
+}
+
+.process-step:last-child .connector {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .connector {
+    right: -10px;
+    width: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .process-header h2 {
+    font-size: 2rem;
+  }
+
+  .process-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .connector {
+    display: none;
+  }
+}

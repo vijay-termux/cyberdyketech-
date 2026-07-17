@@ -39,18 +39,7 @@ body {
   letter-spacing: 0.1em;
 }
 
-.modern-animated-hero-section {
-  position: relative;
-  height: calc(100vh - 70px);
-  min-height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  text-align: center;
-  color: white;
-  background-color: #000;
-}
+
 
 #hexagon-canvas {
   position: absolute;
