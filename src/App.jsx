@@ -2,10 +2,17 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div style={{background: '#000', color: '#e0e0e0'}}>
       {/* Navigation */}
-      <nav style={{height: '70px', background: '#000', position: 'fixed', width: '100%', top: 0, zIndex: 1000}}>
-        <div style={{padding: '20px', color: 'white', fontSize: '20px', fontWeight: 'bold'}}>CyberDyke Tech</div>
+      <nav style={{height: '70px', background: 'rgba(0, 0, 0, 0.95)', position: 'fixed', width: '100%', top: 0, zIndex: 1000, borderBottom: '1px solid rgba(0, 212, 255, 0.2)', display: 'flex', alignItems: 'center'}}>
+        <div style={{maxWidth: '1200px', width: '100%', padding: '0 20px', margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', color: 'white', fontSize: '20px', fontWeight: 'bold'}}>
+          <span>🛡️ CyberDyke Tech</span>
+          <div style={{display: 'flex', gap: '30px', fontSize: '1rem'}}>
+            <a href="#services" style={{color: '#00d4ff', textDecoration: 'none', cursor: 'pointer'}}>Services</a>
+            <a href="#about" style={{color: '#a0a0a0', textDecoration: 'none', cursor: 'pointer'}}>About</a>
+            <a href="#pricing" style={{color: '#a0a0a0', textDecoration: 'none', cursor: 'pointer'}}>Pricing</a>
+          </div>
+        </div>
       </nav>
 
       {/* Hero Section */}
@@ -20,10 +27,33 @@ function App() {
         </div>
       </section>
 
+      {/* Services Section */}
+      <section id="services" style={{padding: '80px 20px', background: 'linear-gradient(135deg, rgba(10, 10, 30, 0.8) 0%, rgba(30, 20, 50, 0.8) 100%)'}}>
+        <div style={{maxWidth: '1200px', margin: '0 auto'}}>
+          <h2 style={{fontSize: '3rem', textAlign: 'center', background: 'linear-gradient(135deg, #00d4ff, #7c3aed)', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', marginBottom: '60px'}}>Our Services</h2>
+          <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '30px'}}>
+            {[
+              {icon: '🔒', title: 'Vulnerability Assessment', desc: 'Comprehensive scanning of your systems'},
+              {icon: '🎯', title: 'Penetration Testing', desc: 'Simulate real-world attacks'},
+              {icon: '📊', title: 'Risk Management', desc: 'Strategic security planning'},
+              {icon: '☁️', title: 'Cloud Security', desc: 'Secure cloud infrastructure'},
+              {icon: '📋', title: 'Compliance Audits', desc: 'ISO 27001, GDPR, SOC 2'},
+              {icon: '🚨', title: 'Incident Response', desc: '24/7 threat monitoring'}
+            ].map((service, i) => (
+              <div key={i} style={{padding: '30px', background: 'rgba(0, 212, 255, 0.05)', border: '1px solid rgba(0, 212, 255, 0.2)', borderRadius: '12px', textAlign: 'center', transition: 'all 0.3s ease', cursor: 'pointer'}} onMouseEnter={(e) => e.currentTarget.style.background = 'rgba(0, 212, 255, 0.15)'} onMouseLeave={(e) => e.currentTarget.style.background = 'rgba(0, 212, 255, 0.05)'}>
+                <div style={{fontSize: '3rem', marginBottom: '20px'}}>{service.icon}</div>
+                <h3 style={{fontSize: '1.3rem', marginBottom: '12px', color: '#fff'}}>{service.title}</h3>
+                <p style={{fontSize: '1rem', color: '#a0a0a0', margin: 0}}>{service.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section style={{padding: '80px 20px', background: 'linear-gradient(135deg, rgba(10, 10, 30, 0.5) 0%, rgba(20, 15, 40, 0.5) 100%)'}}>
         <div style={{maxWidth: '1200px', margin: '0 auto'}}>
-          <h2 style={{fontSize: '3rem', textAlign: 'center', background: 'linear-gradient(135deg, #00d4ff, #7c3aed)', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', marginBottom: '60px'}}>Why Choose CyberDyke Tech</h2>
+          <h2 style={{fontSize: '3rem', textAlign: 'center', background: 'linear-gradient(135deg, #00d4ff, #7c3aed)', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', marginBottom: '60px'}}>Key Features</h2>
           <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '30px'}}>
             {[
               {icon: '🧠', title: 'AI-Powered Detection', desc: 'Machine learning algorithms that evolve with threats'},
@@ -43,10 +73,25 @@ function App() {
         </div>
       </section>
 
-      {/* About Section */}
-      <section style={{padding: '80px 20px', background: 'linear-gradient(135deg, rgba(10, 10, 30, 0.8) 0%, rgba(30, 20, 50, 0.8) 100%)'}}>
+      {/* Why Choose Us */}
+      <section style={{padding: '80px 20px', background: 'linear-gradient(135deg, rgba(10, 10, 30, 0.6) 0%, rgba(20, 15, 40, 0.6) 100%)'}}>
         <div style={{maxWidth: '1200px', margin: '0 auto'}}>
-          <h2 style={{fontSize: '3rem', textAlign: 'center', background: 'linear-gradient(135deg, #00d4ff, #7c3aed)', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', marginBottom: '60px'}}>About Us</h2>
+          <h2 style={{fontSize: '3rem', textAlign: 'center', background: 'linear-gradient(135deg, #00d4ff, #7c3aed)', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', marginBottom: '60px'}}>Why Choose Us</h2>
+          <div style={{display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '30px', textAlign: 'center'}}>
+            {[{num: '500+', label: 'Successful Projects'}, {num: '10+', label: 'Years Experience'}, {num: '100+', label: 'Enterprise Clients'}, {num: '24/7', label: 'Support Available'}].map((stat, i) => (
+              <div key={i} style={{padding: '30px', background: 'rgba(0, 212, 255, 0.1)', border: '1px solid rgba(0, 212, 255, 0.2)', borderRadius: '10px'}}>
+                <h3 style={{fontSize: '2.5rem', color: '#00d4ff', margin: '0 0 10px 0'}}>{stat.num}</h3>
+                <p style={{margin: 0, color: '#a0a0a0'}}>{stat.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" style={{padding: '80px 20px', background: 'linear-gradient(135deg, rgba(10, 10, 30, 0.8) 0%, rgba(30, 20, 50, 0.8) 100%)'}}>
+        <div style={{maxWidth: '1200px', margin: '0 auto'}}>
+          <h2 style={{fontSize: '3rem', textAlign: 'center', background: 'linear-gradient(135deg, #00d4ff, #7c3aed)', backgroundClip: 'text', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', marginBottom: '60px'}}>About CYBERDYKE TECH</h2>
           <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '60px', alignItems: 'center'}}>
             <div style={{color: '#e0e0e0'}}>
               <h3 style={{fontSize: '2rem', marginBottom: '20px', color: '#fff'}}>Protecting Your Digital Future</h3>
