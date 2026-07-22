@@ -92,18 +92,14 @@ export default function ServicesPage() {
   return (
     <>
       <Navbar />
-      <div style={{ paddingTop: '70px' }}>
+      <main className="pt-20">
         {/* Hero Section */}
         <section className="py-5 bg-light-gray">
           <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-8">
-                <h1 className="text-3xl lg:text-4xl font-bold mb-3">Our Comprehensive Cybersecurity Services</h1>
-                <p className="text-lg text-gray-600">
-                  We provide enterprise-grade cybersecurity solutions powered by AI and backed by decades of IT security expertise.
-                </p>
-              </div>
-            </div>
+            <h1 className="section-title mb-3 animate-fade-in">Our Comprehensive Cybersecurity Services</h1>
+            <p className="lead text-muted animate-fade-in delay-1">
+              Enterprise-grade cybersecurity solutions powered by AI and backed by decades of IT security expertise.
+            </p>
           </div>
         </section>
 
@@ -111,32 +107,33 @@ export default function ServicesPage() {
         <section className="py-5">
           <div className="container">
             <div className="row g-4">
-              {services.map((service) => (
-                <div key={service.id} className="col-lg-6">
-                  <div id={service.id} className="service-card p-6 bg-white border rounded-lg hover:shadow-lg transition">
-                    <div className="flex items-start gap-4">
-                      <div className="flex-shrink-0">
-                        <i className={`fas ${service.icon} fa-3x text-blue-600`}></i>
-                      </div>
-                      <div className="flex-grow">
-                        <h3 className="text-2xl font-bold mb-2">{service.title}</h3>
-                        <p className="text-gray-600 mb-4">{service.description}</p>
-                        <div className="mb-4">
-                          <h4 className="font-semibold mb-2">Key Features:</h4>
-                          <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
-                            {service.features.map((feature, idx) => (
-                              <li key={idx}>{feature}</li>
-                            ))}
-                          </ul>
-                        </div>
-                        <Link 
-                          href="/contact" 
-                          className="text-blue-600 font-semibold hover:text-blue-800 transition inline-flex items-center gap-2"
-                        >
-                          Get Started <i className="fas fa-arrow-right"></i>
-                        </Link>
+              {services.map((service, index) => (
+                <div key={service.id} className={`col-lg-6 animate-fade-in delay-${(index % 3) + 1}`}>
+                  <div id={service.id} className="service-card p-4 shadow-sm rounded-3 bg-white h-100">
+                    <div className="d-flex gap-3 mb-3">
+                      <div className="icon-wrapper flex-shrink-0">
+                        <i className={`fas ${service.icon} fa-2x`}></i>
                       </div>
                     </div>
+                    <h3 className="h5 fw-bold mb-2">{service.title}</h3>
+                    <p className="text-muted small mb-3">{service.description}</p>
+                    <div className="mb-3">
+                      <h4 className="small fw-bold mb-2">Key Features:</h4>
+                      <ul className="list-unstyled">
+                        {service.features.map((feature, idx) => (
+                          <li key={idx} className="small text-muted mb-1">
+                            <i className="fas fa-check text-primary me-2"></i>
+                            {feature}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <Link 
+                      href="/contact" 
+                      className="text-primary fw-medium small hover:text-blue-700 transition inline-flex items-center gap-2"
+                    >
+                      Learn More <i className="fas fa-arrow-right"></i>
+                    </Link>
                   </div>
                 </div>
               ))}
@@ -147,24 +144,27 @@ export default function ServicesPage() {
         {/* Why Choose Us */}
         <section className="py-5 bg-light-gray">
           <div className="container">
-            <h2 className="text-3xl font-bold mb-5 text-center">Why Our Services Stand Out</h2>
+            <h2 className="section-title mb-5 text-center animate-fade-in">Why Our Services Stand Out</h2>
             <div className="row g-4">
-              <div className="col-md-4">
-                <div className="p-4 bg-white rounded-lg">
-                  <h4 className="font-bold mb-2">Veteran-Led Expertise</h4>
-                  <p className="text-gray-600 text-sm">Decades of experience in enterprise cybersecurity and IT defense strategies.</p>
+              <div className="col-md-4 animate-fade-in delay-1">
+                <div className="p-4 bg-white rounded-3 h-100 text-center">
+                  <i className="fas fa-user-tie fa-2x text-primary mb-3 d-block"></i>
+                  <h4 className="h6 fw-bold mb-2">Veteran-Led Expertise</h4>
+                  <p className="small text-muted mb-0">Decades of experience in enterprise cybersecurity and IT defense strategies.</p>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="p-4 bg-white rounded-lg">
-                  <h4 className="font-bold mb-2">AI-Powered Detection</h4>
-                  <p className="text-gray-600 text-sm">Advanced machine learning algorithms for threat detection and prevention.</p>
+              <div className="col-md-4 animate-fade-in delay-2">
+                <div className="p-4 bg-white rounded-3 h-100 text-center">
+                  <i className="fas fa-brain fa-2x text-primary mb-3 d-block"></i>
+                  <h4 className="h6 fw-bold mb-2">AI-Powered Detection</h4>
+                  <p className="small text-muted mb-0">Advanced machine learning algorithms for threat detection and prevention.</p>
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="p-4 bg-white rounded-lg">
-                  <h4 className="font-bold mb-2">24/7 Support</h4>
-                  <p className="text-gray-600 text-sm">Round-the-clock monitoring and incident response coordination.</p>
+              <div className="col-md-4 animate-fade-in delay-3">
+                <div className="p-4 bg-white rounded-3 h-100 text-center">
+                  <i className="fas fa-clock fa-2x text-primary mb-3 d-block"></i>
+                  <h4 className="h6 fw-bold mb-2">24/7 Support</h4>
+                  <p className="small text-muted mb-0">Round-the-clock monitoring and incident response coordination.</p>
                 </div>
               </div>
             </div>
@@ -172,21 +172,21 @@ export default function ServicesPage() {
         </section>
 
         {/* CTA */}
-        <section className="py-5 bg-blue-600 text-white">
+        <section id="cta" className="py-5 text-white">
           <div className="container text-center">
-            <h2 className="text-3xl font-bold mb-3">Ready to Get Started?</h2>
-            <p className="text-lg opacity-90 mb-4">
+            <h2 className="mb-3 animate-fade-in delay-1">Ready to Get Started?</h2>
+            <p className="lead opacity-90 mb-4 animate-fade-in delay-2">
               Schedule a consultation with our security experts today.
             </p>
             <Link 
               href="/contact" 
-              className="btn btn-lg bg-white text-blue-600 font-bold hover:bg-gray-100 transition"
+              className="btn btn-lg bg-white text-primary fw-bold hover:bg-gray-100 transition animate-fade-in delay-3"
             >
               Schedule Your Assessment
             </Link>
           </div>
         </section>
-      </div>
+      </main>
       <Footer />
     </>
   )
